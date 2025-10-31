@@ -38,7 +38,7 @@
   Z (Zombie)	僵尸进程
   X (Dead)	死亡状态
 ### 3.进程指令
-  3.1ps
+  #### 3.1ps
     ps aux                    # 查看所有用户的所有进程
     ps -ef                    # 完整格式显示所有进程
     ps -u username            # 查看指定用户的进程
@@ -56,7 +56,7 @@
       START: 启动时间
       TIME: 累计CPU时间
       COMMAND: 命令名称
-  3.2top
+  #### 3.2top
     top                       # 实时显示进程状态
     top -u username           # 监控指定用户的进程
     top -p PID1,PID2          # 监控指定PID的进程
